@@ -22,7 +22,7 @@ q_values = [11, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 q_values_roll=[30, 40, 50]
 
 # Set the variable save_figures=True to save the result images
-save_figures = False
+save_figures = True
 
 
 
