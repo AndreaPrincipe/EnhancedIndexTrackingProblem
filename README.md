@@ -44,8 +44,8 @@ EnhancedIndexTrackingProblem/
 │   ├── __init__.py                      
 │   ├── functions.py   
 │   ├── models_mixture.py
-│   ├── mosek_fusion_models.py         
-│   └── plot_functions_robust.py                
+│   ├── models_factor.py         
+│   └── plot_functions.py                
 ├── results/                              
 │   ├── results_factor
 │   ├── results_mixture  
