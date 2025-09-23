@@ -55,6 +55,7 @@ EnhancedIndexTrackingProblem/
 To correctly run the project, ensure that the following dependencies are installed:
 ```plaintext
 -**gurobipy==11.0.3**
+-**mosek==11.0.11**
 -**matplotlib==3.5.1**
 -**numpy==1.20.3**
 -**pandas==1.4.1**
@@ -66,7 +67,7 @@ To correctly run the project, ensure that the following dependencies are install
 -**itertools**
 -**pathlib**
 ```
-The Python version used is 3.12.4. Furthermore, an active license is required for the Gurobi extension.
+The Python version used is 3.12.4. Furthermore, an active license is required for Gurobi and Mosek extensions.
 
 ## Execution - Usage Instructions
 
