@@ -22,7 +22,13 @@ This repository implements two formulations of the Enhanced Index Tracking Probl
 - Reformulated using **Lagrangian duality**, leading to a tractable optimization problem solved with **Gurobi**.  
 - Evaluation:  
   - **Static out-of-sample tests**  
-  - (Rolling-window analysis was computationally infeasible at scale)  
+  - (Rolling-window analysis was computationally infeasible at scale)
+
+For a detailed description of the models, see the following PDFs:
+
+- [Factor-based Robust Model](Factor-based_robust_index_tracking.pdf)
+- [Mixture-based Robust Model](Robust_enhanced_index_tracking_problem_with_mixture_of_distributions.pdf)
+
 
 ## Project Structure
 ```plaintext
