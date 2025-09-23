@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import scipy.stats as stats
-from .mosek_fusion_models import basic_tracking_mosek, robust_tracking_mosek, sqrt_matrix
+from .models_factor import basic_tracking_mosek, robust_tracking_mosek, sqrt_matrix
 from .models_mixture import model_EIT1, model_mixture_DEIT1
 import pickle
 from itertools import islice
