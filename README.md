@@ -4,23 +4,26 @@
 
 ## Overview of the models
 This repository implements two formulations of the Enhanced Index Tracking Problem (EITP):
-1. Factor-based Robust Model
-- Built on Fama–French factor models (both 3-factor and 5-factor variants).
-- Robustness introduced through uncertainty sets on:
-  - Expected returns
-  - Factor loadings matrix
-- Formulated as a Mixed-Integer Second-Order Cone Program (MISOCP), solved with Mosek Fusion.
-- Includes cardinality constraints to enforce portfolio sparsity.
-- Evaluation:
-  - Static out-of-sample tests
-  - Rolling-window analysis for dynamic performance assessment
-2. Mixture-based Robust Model
-- Models asset returns using a Gaussian Mixture distribution.
-- Incorporates uncertainty in mixture weights via ϕ-divergences.
-- Reformulated using Lagrangian duality to achieve tractability.
-- Evaluation:
-  - Static out-of-sample tests (rolling-window analysis was computationally infeasible at scale).
-    
+
+### 1. Factor-based Robust Model
+- Built on **Fama–French factor models** (both 3-factor and 5-factor variants).  
+- Robustness introduced through **uncertainty sets** on:  
+  - Expected returns  
+  - Factor loadings matrix  
+- Formulated as a **Mixed-Integer Second-Order Cone Program (MISOCP)**, solved with **Mosek Fusion**.  
+- Includes **cardinality constraints** to enforce portfolio sparsity.  
+- Evaluation:  
+  - **Static out-of-sample tests**  
+  - **Rolling-window analysis** for dynamic performance assessment  
+
+### 2. Mixture-based Robust Model
+- Models asset returns using a **Gaussian Mixture distribution**.  
+- Incorporates uncertainty in mixture weights via **ϕ-divergences**.  
+- Reformulated using **Lagrangian duality** to achieve tractability.  
+- Evaluation:  
+  - **Static out-of-sample tests**  
+  - (Rolling-window analysis was computationally infeasible at scale)  
+
 ## Project Structure
 ```plaintext
 EnhancedIndexTrackingProblem/
