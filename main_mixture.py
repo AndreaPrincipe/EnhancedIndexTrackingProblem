@@ -16,7 +16,7 @@ data_path = os.path.join(os.path.dirname(__file__), "data")
 results_path = os.path.join(os.path.dirname(__file__), "results", "results_mixture")
 
 # Set the variable save_figures=True to save the result images
-save_figures = False
+save_figures = True
 
 
 
