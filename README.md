@@ -69,3 +69,9 @@ To correctly run the project, ensure that the following dependencies are install
 The Python version used is 3.12.4. Furthermore, an active license is required for the Gurobi extension.
 
 ## Execution - Usage Instructions
+
+The project can be executed through two main scripts, one for each formulation of the Enhanced Index Tracking Problem. Running `python main_factor.py` starts the factor-based robust model, which uses the Mosek Fusion API, while `python main_mixture.py` runs the mixture-based robust model implemented with Gurobi.  
+
+All the required input data are already provided in the `data/` directory, including market capitalization files, stock time series, and Fama–French factors, so no additional preprocessing is needed before execution. Results are automatically generated and saved inside the `results/` folder. Depending on the chosen model, outputs will be stored in either `results_factor` or `results_mixture`. If the option `save_figures=True` is enabled within the main scripts, plots and visualizations of portfolio performance will also be created and placed in the corresponding results subdirectory.  
+
+The implementation has been tested on a machine with 16 GB of RAM.
