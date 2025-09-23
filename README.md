@@ -6,6 +6,7 @@
 
 ## Requirements
 To correctly run the project, ensure that the following dependencies are installed:
+```plaintext
 -**gurobipy==11.0.3**
 -**matplotlib==3.5.1**
 -**numpy==1.20.3**
@@ -17,6 +18,7 @@ To correctly run the project, ensure that the following dependencies are install
 -**copy**
 -**itertools**
 -**pathlib**
-The Python version used is 3.12.4. Additionally, an active license is required for the Gurobi extension.
+```
+The Python version used is 3.12.4. Furthermore, an active license is required for the Gurobi extension.
 
 ## Execution - Usage Instructions
