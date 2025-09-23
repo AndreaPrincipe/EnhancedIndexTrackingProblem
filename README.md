@@ -19,7 +19,7 @@ This repository implements two formulations of the Enhanced Index Tracking Probl
 ### 2. Mixture-based Robust Model
 - Models asset returns using a **Gaussian Mixture distribution**.  
 - Incorporates uncertainty in mixture weights via **ϕ-divergences**.  
-- Reformulated using **Lagrangian duality** to achieve tractability.  
+- Reformulated using **Lagrangian duality**, leading to a tractable optimization problem solved with **Gurobi**.  
 - Evaluation:  
   - **Static out-of-sample tests**  
   - (Rolling-window analysis was computationally infeasible at scale)  
